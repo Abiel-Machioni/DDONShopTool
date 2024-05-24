@@ -27,15 +27,10 @@ It allows you to add, modify, and remove items or entire shops from the Shop.jso
 
 3. Clone the repository:
 
-- Using bash:
-
     ```bash
     git clone https://github.com/Abiel-Machioni/DDON_ShopTool.git
     cd DDON_ShopTool
     ```
-- Using cmd:
-
-```git clone https://github.com/Abiel-Machioni/DDON_ShopTool```
 
 3. Install PyInstaller:
 
@@ -43,23 +38,17 @@ It allows you to add, modify, and remove items or entire shops from the Shop.jso
     pip install pyinstaller
     ```
 
- ```pip install pyinstaller```
-
 4. Install the required packages:
 
     ```bash
     pip install -r requirements.txt
     ```
 
- ```pip install -r requirements.txt```
-
  5. Run PyInstaller to compile into executable:
 
     ```bash
     pyinstaller --onefile DDON_ShopTool.py
     ```
-
- ```pyinstaller --onefile DDON_ShopTool.py```
 
 6. The executable will be located in the `dist` directory.
 
